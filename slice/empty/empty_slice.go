@@ -1,4 +1,4 @@
-package main
+package empty
 
 func main() {
     var nil_s []int

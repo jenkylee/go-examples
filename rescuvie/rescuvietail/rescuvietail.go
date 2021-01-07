@@ -1,4 +1,4 @@
-package main
+package rescuvietail
 
 import "fmt"
 
