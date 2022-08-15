@@ -6,6 +6,7 @@ func SelectSort(list []int) {
 	if n <= 1 {
 		return
 	}
+    
 	for i := 0; i < n-1; i++ {
 		min := list[i]
 		minIndex := i
