@@ -3,7 +3,6 @@ package simplefactory
 import "fmt"
 
 type API interface {
-
 	Say(name string) string
 }
 
@@ -12,9 +11,10 @@ func NewAPI(t int) API {
 	if t == 2 {
 
 		return &helloAPI{}
-	} 
+	} else {
 
-	return &hiAPI{}
+		return &hiAPI{}
+	}
 }
 
 // hiApi is one of API implement
