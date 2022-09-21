@@ -1,5 +1,7 @@
 package builder
 
+//将一个复杂对象的构建分离成多个简单对象的构建组合
+
 // Builder 是生成器接口
 type Builder interface {
 	Part1()
