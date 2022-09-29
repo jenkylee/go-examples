@@ -1,5 +1,7 @@
 package composite
 
+import "testing"
+
 func ExampleComposite() {
 	root := NewComponent(CompositeNode, "root")
 	c1 := NewComponent(CompositeNode, "c1")
@@ -19,4 +21,8 @@ func ExampleComposite() {
 	c2.AddChild(l3)
 
 	root.Print("")
+}
+
+func TestMain(m *testing.M) {
+	ExampleComposite()
 }
